@@ -3,16 +3,34 @@ layout: default
 section: blog
 ---
 
-<div class='listing col6 pad4h margin3'>
-  {% for item in site.categories.blog limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+<!-- Banner -->
+<section id="banner" class="major">
+  <div class="inner">
+    <header class="major">
+      <h1>Hi, my name is Forty</h1>
+    </header>
+    <div class="content">
+      <p>A responsive site template designed by HTML5 UP<br />
+      and released under the Creative Commons.</p>
+      <ul class="actions">
+        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
-    {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
-  {% endfor %}
+
+<div id="main">
+  <section id="one" class="tiles">
+    {% for item in site.categories.blog limit:1000 %}
+      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+      <article>
+        <span class="image"><img src="assets/img/" alt="" /></span>
+        <header class="">
+          <h3><a href="{{ site.baseurl }}{{ item.url }}" class="link">{{ item.title }}</a></h3>
+          <p>{{ item.date | date:'%b %d' }}</p>
+        </header>
+      </article>
+    {% endfor %}
+  </section>
 </div>
-
-{% include rss-link.html %}

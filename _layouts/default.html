@@ -1,18 +1,67 @@
 ---
-title: 'This is my Site Title'
+title: 'Horizons++'
 ---
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <title>Horizons++{% if page.url != '/index.html' %} | {{ page.title }}{% endif %}</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
 </head>
 <body>
-  <div class='container'>
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+      <nav>
+        <a href="#menu">Menu</a>
+      </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="landing.html">Landing</a></li>
+        <li><a href="generic.html">Generic</a></li>
+        <li><a href="elements.html">Elements</a></li>
+
+        <li><a class="{% if page.section == 'blog' %}active{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+        <li><a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/about">About</a></li>
+
+      </ul>
+      <ul class="actions vertical">
+        <li><a href="#" class="button special fit">Get Started</a></li>
+        <li><a href="#" class="button fit">Log In</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    {{ content }}
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+          <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Katie Russ</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- <div class='container'>
     <div class='col12 clearfix'>
       <div class='header col6 margin3 pad4h'>
         <div class='clearfix col12'>
@@ -26,6 +75,15 @@ title: 'This is my Site Title'
       </div>
     </div>
     {{content}}
-  </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+  </div> -->
+
+  <!-- Scripts -->
+  <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.scrolly.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.scrollex.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/skel.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="{{site.baseurl}}/assets/js/main.js"></script>
+    <!-- <script src='{{site.baseurl}}/site.js'></script> -->
 </body>
