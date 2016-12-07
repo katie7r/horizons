@@ -22,15 +22,21 @@ section: adventure
 
 <div id="main">
   <section id="one" class="tiles">
-    {% for item in site.categories.adventure limit:1000 %}
-      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-      <article>
-        <span class="image"><img src="assets/img/" alt="" /></span>
-        <header class="">
-          <h3><a href="{{ site.baseurl }}{{ item.url }}" class="link">{{ item.title }}</a></h3>
-          <p>{{ item.date | date:'%b %d' }}</p>
-        </header>
-      </article>
+    {% for collection in site.collections limit:1000 %}
+
+      <a id="{{ collection.label }}"></a>
+      {% for item in collection.docs reversed %}
+
+        {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+        <article>
+          <span class="image"><img src="assets/img/" alt="" /></span>
+          <header class="">
+            <h3><a href="{{ site.baseurl }}{{ item.url }}" class="link">{{ item.title }}</a></h3>
+            <p>{{ item.date | date:'%b %d' }}</p>
+          </header>
+        </article>
+
+      {% endfor %}
     {% endfor %}
   </section>
 </div>

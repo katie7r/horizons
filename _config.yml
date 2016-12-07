@@ -1,12 +1,16 @@
 baseurl: /horizons
 permalink: pretty
+collections:
+  sevilla:
+    output: true
+    permalink: adventure/sevilla/:year/:month/:day/:title/
 prose:
-  rooturl: '_posts'
+  rooturl: '_sevilla'
   siteurl: 'http://katie7r.github.io/horizons/'
   relativeLinks: 'http://katie7r.github.io/horizons/links.jsonp'
   media: 'media'
   metadata:
-    _posts:
+    _sevilla:
       - name: "category"
         field:
           element: "hidden"
@@ -39,11 +43,11 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
-    _posts/static:
+    _sevilla/static:
       - name: "layout"
         field:
           element: "hidden"
-          value: "page"
+          value: "adventure"
       - name: "title"
         field:
           element: "text"
