@@ -3,7 +3,7 @@ permalink: pretty
 collections:
   sevilla:
     output: true
-    permalink: adventure/sevilla/:year/:month/:day/:title/
+    permalink: sevilla/:year/:month/:day/:title/
 prose:
   rooturl: '_sevilla'
   siteurl: 'http://katie7r.github.io/horizons/'
