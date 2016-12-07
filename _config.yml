@@ -10,11 +10,11 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "blog"
+          value: "adventure"
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "adventure"
       - name: "title"
         field:
           element: "text"

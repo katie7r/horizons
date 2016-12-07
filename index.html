@@ -1,6 +1,6 @@
 ---
 layout: default
-section: blog
+section: adventure
 ---
 
 <!-- Banner -->
@@ -22,7 +22,7 @@ section: blog
 
 <div id="main">
   <section id="one" class="tiles">
-    {% for item in site.categories.blog limit:1000 %}
+    {% for item in site.categories.adventure limit:1000 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       <article>
         <span class="image"><img src="assets/img/" alt="" /></span>
