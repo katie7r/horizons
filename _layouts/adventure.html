@@ -4,10 +4,8 @@ section: adventure
 ---
 
 {% if page.splash %}
-  {% if page.splash contains 'http' %}
-    {% capture splash %}{{ page.splash }}{% endcapture %}
-  {% else %}
-    {% capture splash %}{{ site.baseurl }}{{ page.splash }}{% endcapture %}
+  {% if page.splash.url contains 'http' %}{% else %}
+    {% capture presplash %}{{ site.baseurl }}{% endcapture %}
   {% endif %}
 {% endif %}
 
@@ -18,13 +16,45 @@ section: adventure
     <div class="inner">
       <header class="major">
         <h1>{{ page.title }}</h1>
-        <small>{{ page.date | date:'%b %d' }}</small>
+        <small>
+          {{ page.date | date:'%b %d' }}
+          {% if page.date and page.sight %} ※ {% endif %}
+          {{ page.sight }}
+        </small>
       </header>
+
       <span class="image main">
-        <img src="{{ splash }}" alt="{{ page.splash.alt }}" />
+        {% if page.splash %}
+          <!-- TODO: link to page for picture (?)-->
+          <a href="{{ presplash }}{{ page.splash.url }}">
+            <img src="{{ presplash }}{{ page.splash.url }}" alt="{{ page.splash.alt }}" />
+          </a>
+        {% endif %}
       </span>
 
       {{ content }}
+
+      {% if page.snapshots %}
+        <div class="row 200%">
+          <div class="12u$ 12u$(medium)">
+            <div class="box alt">
+              <div class="row 50% uniform">
+                {% for snapshot in page.snapshots %}
+                  {% if snapshot.url contains 'http' %}{% else %}
+                    {% capture presnapshot %}{{ site.baseurl }}{% endcapture %}
+                  {% endif %}
+                  <div class="4u snapshot">
+                    <!-- TODO: link to page for picture (?)-->
+                    <a href="{{ presnapshot }}{{ snapshot.url }}">
+                      <img src="{{ presnapshot }}{{ snapshot.url }}" alt="{{ snapshot.alt }}" />
+                    </a>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
     </div>
   </section>
 </div>

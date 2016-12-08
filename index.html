@@ -1,19 +1,33 @@
 ---
 layout: default
 section: adventure
+quotes:
+  - text: "It is not down on any map;<br />true places never are."
+    author: "Herman Melville"
+  - text: "One's destination is never a place, but<br />rather a new way of looking at things."
+    author: "Henry Miller"
+  - text: "A good traveler has no fixed plans and<br />is not intent upon arriving."
+    author: "Laozi"
+  - text: "For always roaming with a hungry heart,<br />Much have I seen and known."
+    author: "Alfred Tennyson"
 ---
 
 <!-- Banner -->
 <section id="banner" class="major">
   <div class="inner">
     <header class="major">
-      <h1>Hi, my name is Forty</h1>
+      <h1>
+        {% assign quote = page.quotes[1] %}
+        {{ quote.text }} <small>{{ quote.author }}</small>
+      </h1>
     </header>
     <div class="content">
-      <p>A responsive site template designed by HTML5 UP<br />
-      and released under the Creative Commons.</p>
+      <p>
+        These are my adventures abroad,<br />
+        by which I broaden my horizons.
+      </p>
       <ul class="actions">
-        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+        <li><a href="#one" class="button next scrolly">My Latest Adventures</a></li>
       </ul>
     </div>
   </div>
@@ -29,7 +43,8 @@ section: adventure
 
         {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
         <article>
-          <span class="image"><img src="assets/img/" alt="" /></span>
+          <!-- TODO: splash image -->
+          <span class="image"><img src="{{ site.baseurl }}/assets/img/" alt="" /></span>
           <header class="">
             <h3><a href="{{ site.baseurl }}{{ item.url }}" class="link">{{ item.title }}</a></h3>
             <p>{{ item.date | date:'%b %d' }}</p>

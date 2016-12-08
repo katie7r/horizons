@@ -1,9 +1,8 @@
 baseurl: /horizons
-permalink: pretty
+permalink: /:collection/:year/:month/:day/:title/
 collections:
   sevilla:
     output: true
-    permalink: sevilla/:year/:month/:day/:title/
 prose:
   rooturl: '_sevilla'
   siteurl: 'http://katie7r.github.io/horizons/'

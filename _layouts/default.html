@@ -10,6 +10,7 @@ title: 'Horizons++'
   <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/mine.css" />
 </head>
 <body>
   <!-- Wrapper -->
@@ -17,7 +18,7 @@ title: 'Horizons++'
 
     <!-- Header -->
     <header id="header" class="alt">
-      <a href="{{ site.baseurl }}/" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+      <a href="{{ site.baseurl }}/" class="logo"><strong>Horizons</strong> <span>++</span></a>
       <nav>
         <a href="#menu">Menu</a>
       </nav>
@@ -28,8 +29,7 @@ title: 'Horizons++'
       <ul class="links">
         {% for collection in site.collections %}
           {% if collection.label != 'posts' %}
-          <!-- <li><a href="{{ site.baseurl }}/adventure/{{ collection.label }}/">{{ collection.label }}</a></li> -->
-          <li><a href="{{ site.baseurl }}/#{{ collection.label }}">{{ collection.label }}</a></li>
+            <li><a href="{{ site.baseurl }}/#{{ collection.label }}">{{ collection.label }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

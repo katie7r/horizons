@@ -1,6 +1,7 @@
-Starter is a barebones starting point for responsive sites built on Jekyll and with
-site management in [prose](http://prose.io). To get started, Fork this repo and [install Jekyll](http://jekyllrb.com/docs/installation).
+Horizons++ is a way for me to document my trips and travels, thus named because I'll be expanding my horizons (yes, yes -- I know it's bad, but it should also no surprise if you know me at all).
 
-To work on the site locally, run `jekyll serve --watch`, then visit `http://localhost:4000/starter/` in your browser.
+For the curious: Horizons++ is built on [Jekyll](https://jekyllrb.com/) and utilizes [GitHub Pages](https://pages.github.com/); it began as a fork of [prose's Starter](https://github.com/prose/starter), a starting point for managing such a static site with [prose](http://prose.io).
 
-If you notice any problems or would like to contribute to the project start a discussion from the [issues page](https://github.com/prose/starter/issues)
+Note(s) to Self:
+
+To work on the site locally, run `jekyll serve --watch`, then visit `http://localhost:4000/horizons/` in the browser.

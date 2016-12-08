@@ -1,0 +1,42 @@
+#banner.major header.major h1 small {
+  float: right;
+  font-size: 0.5em;
+  font-weight: normal;
+  margin-top: 1.2em;
+  /*vertical-align: baseline;*/
+}
+
+#main.alt .image.main {
+  max-height: 400px;
+  /*position: relative;*/
+  overflow: hidden;
+}
+
+.box.alt .uniform {
+  position: relative;
+}
+
+.snapshot {
+  max-height: 400px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ...this is not how I want to do this */
+
+@media (max-width: 1280px) {
+  .snapshot { max-height: 350px; }
+}
+
+@media (max-width: 980px) {
+  .snapshot { max-height: 250px; }
+}
+
+@media (max-width: 736px) {
+  .snapshot { max-height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .snapshot { max-height: 100px; }
+}
