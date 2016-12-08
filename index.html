@@ -43,8 +43,15 @@ quotes:
 
         {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
         <article>
-          <!-- TODO: splash image -->
-          <span class="image"><img src="{{ site.baseurl }}/assets/img/" alt="" /></span>
+          {% if item.splash %}
+            {% if item.splash.url contains 'http' %}{% else %}
+              {% capture presplash %}{{ site.baseurl }}{% endcapture %}
+            {% endif %}
+            <span class="image">
+              <img src="{{ presplash }}{{ item.splash.url }}" alt="{{ item.splash.alt }}" />
+            </span>
+          {% endif %}
+
           <header class="">
             <h3><a href="{{ site.baseurl }}{{ item.url }}" class="link">{{ item.title }}</a></h3>
             <p>{{ item.date | date:'%b %d' }}</p>
