@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 layout: adventure
-title: ...
+title: Conferencia y Comida
 splash:
-  url: ""
-  alt: ""
+  url: "https://lh3.googleusercontent.com/h6wzTeexrbZyHaTqVBRzxhWRMFXC7ttXYt3CromP5JDuWooKMm1gkKCyZCkGxJDjj5ExLySZY8SBMwCwZiSnuOPzQT8c4mJbIxNtp0Jq5KdKcQoL0vA1FKZcyoVjP-FyVZF51BXDCP_UQvGwW7l21DmrGIV811fjfZoH9ef9R1Te5M_ClN3jti7hzxS0COVVAwzEZm2830aMvyZhCwRzCN0INtHaBllTn1vu4r29XrThbmkEczwtMtQ5F8TTPA8aAndNLq5ifxh16PbwgedkopMgoRNPdH42QtQ4YHQ0YLc-SyifQhlwwo4HAdraPAT-40rsyRmOkCtcResFMMVBkq6-vkmpN_7gdK9lW0pOWT50vRIjhzL_Xhxf15rPn-qWXSuSinUA1rKSzp2EySdljM42JrA6l2MRUwVzOAt-rs2SoHA6O2x_JnT-QraDCXMyaOODcAySz_TMUzK-f-kQRUwepN9rXaioDhPqINxZGn004Fcs94KbH4bcYLI4aSGZ8GwUIb6AN3K3A9L80Rsye1Q9J8x9GkQ0sDu_FRIjs7QgwXWGjI6It3glY4jOqm7-9db2SVpGp2XKpr9SsVpdyNBx6zqnVG3jhxrxCWbXjj3EyG3x=w702-h934-no"
+  alt: "Walking down a street in Seville"
 snapshots:
   - url: "https://lh3.googleusercontent.com/2ma96TetSiiBjf78YZnzAyO6XUqxLwk8ad9r9SrZBgGc33uDFeac-kMulXOsvh_Sy6V2Dy0vG6tSWZS2lj2BwrpVxKnHouvfbA7UsKAAI49yHHLAU0LeagEFpAaJoVz4eM-VQa-s_8pxvrzkoNXEiRS8GG5-AiC6DKy2zqR0uy-l1FeDLAKMWVwAN-OynAGR49OsalmESw-_MVAQpCXnhN-TfciTtfdssW-Hs-bBoOPVzQGLENs8FK9hEh5dXYJ6Gm7v-6y_pPTebfQwr4-UI_aesSnwk8A1mWk5kGEMS5CjY-6EQTaz6TT5_u0errLrdrYyCD1PyWGm3Ov_rzlcJytiiACf4YUps3rSWHEfUK3-l5NnV7477lODEKb6AqKLiHTG9Pt1jR4NWXsbbvWUi6uHp2G16sLRv9wLC2n9kUtwT38aj9jCWp-LCb_YryfoHkBGLaCSHeBUUleFGGQtGTT1oyeT1OpPMyaE4Eri2UTrKWK1rGBhfsfZj3D1s3O_TlrQ7GupAIFwPi0g0xutYJWeBIggf-xyvVxsw8hutRYHzQKPHfXbuWF2oZV3gDH09FWXs31fqEZzTFt1eXCD7hHoRaXgT7BiDLMHI_1OCfGdNz5ZDRb3=w702-h934-no"
     alt: "Beginning the trek to the Alameda de Hércules"
@@ -12,10 +12,8 @@ snapshots:
     alt: "Nearing La Alameda" 
   # - url: "https://photos.google.com/photo/AF1QipPiqxC54A-SMWWJqMOYUiG9cysoSq2kjXjlKOzo"
   #   alt: "Video from lunch at La Alameda, starring Tony, Jon, and Megan"
-  - url: "https://lh3.googleusercontent.com/h6wzTeexrbZyHaTqVBRzxhWRMFXC7ttXYt3CromP5JDuWooKMm1gkKCyZCkGxJDjj5ExLySZY8SBMwCwZiSnuOPzQT8c4mJbIxNtp0Jq5KdKcQoL0vA1FKZcyoVjP-FyVZF51BXDCP_UQvGwW7l21DmrGIV811fjfZoH9ef9R1Te5M_ClN3jti7hzxS0COVVAwzEZm2830aMvyZhCwRzCN0INtHaBllTn1vu4r29XrThbmkEczwtMtQ5F8TTPA8aAndNLq5ifxh16PbwgedkopMgoRNPdH42QtQ4YHQ0YLc-SyifQhlwwo4HAdraPAT-40rsyRmOkCtcResFMMVBkq6-vkmpN_7gdK9lW0pOWT50vRIjhzL_Xhxf15rPn-qWXSuSinUA1rKSzp2EySdljM42JrA6l2MRUwVzOAt-rs2SoHA6O2x_JnT-QraDCXMyaOODcAySz_TMUzK-f-kQRUwepN9rXaioDhPqINxZGn004Fcs94KbH4bcYLI4aSGZ8GwUIb6AN3K3A9L80Rsye1Q9J8x9GkQ0sDu_FRIjs7QgwXWGjI6It3glY4jOqm7-9db2SVpGp2XKpr9SsVpdyNBx6zqnVG3jhxrxCWbXjj3EyG3x=w702-h934-no"
-    alt: "Walking back from La Alameda (1)"
   - url: "https://lh3.googleusercontent.com/lAsPVIPF9WvI6L0ELD0Q0ZuQrtJzUUfeV_M5MdKfBhrsrMinA__fVhcglDgnm3p5yUmte69R1OIZBl24wBuSJNZ2_Yen2B1IGhzwJ6IMVc9DuoOjWM4hgT_YfIkfWF4fIchIEsBU-DLqWFdqaVLGEQTp6OANfAOkeFgwE7S39tAk64dY2-imNHDB2ekFISXS-TiGLryCuUpNCzhOc29PASh6p1X03xdU-eJ-tEHdIC0kXXjvpG3y2ty9-vH4XPk9lWRYfZP8_vQmCdFw_q9XBq92RXzZJLQfsR3XdFcxMBbRQKbJk0nNb9qcf7oIqqJCYOnyV1tx2cBoQJdVQUnZagPXxaF7fizrsCOJmt5KYCZsZVXnfVBoQQxXlH5kloCa5JXvlvB9wh1NvqvXm4f3C4RMkQ0VJ6GNnX5VfTZpOfJiiNtb7sRgDRDIBqBCEek1-11J2CAM-CaqCjU1ihKaWVxIzrjKDUCWM-a9XGpqaLY_Vt2GrbcYav-s24044x3Bds9IEVCo9F-qyD07M6_qLVofaE3ZVG5LHsO_9exd6RNYDqb0V8fW6UVn9vE4x1HtkNBdUSll-5lzK7a2Wv-cexjjorWasyrEpwt1r6aq-6--KsHG=w702-h934-no"
-    alt: "Walking back from La Alameda (2)"
+    alt: "Walking back from La Alameda"
   - url: "https://lh3.googleusercontent.com/oO8MQKGBl1hfZI1BxCT06tCCg66WCf9YuJUKq6jFPGcEU1KhaxuuNwcLLKvmoo29D-5R4HIeIBwCP_uqwKZDQDqs_ttlGjllQbeUQrfbkYoma14182UnTtEao8oj-e7OqmVI-Xdx-rj4Q_XIh6QJdfPEvxB7V9A-RcAPO4lJNVT2CA5AecUYBdGmg5x0P9c_s-wLTC8Y7IKlfx7c_m5XFrs3OYeD1OXMG7oBZjwN1HkfIxAzY-eIo4OE8TDI-UlCZdTrKaS9uPUsZE_Hyt-jr6BzmO8F0jveUN2uR3zI4WELg9UZYtccrEEzPLAsOz-ts5JA3IMp5VynNvdGrOUuf6JcX6j894IiyfocGjcOCxbnJ4eYp4wvTIzOszPtYN4mky_MwN4GM2EoWFpDNuoSjcNzKS9zHrCnODv4CW7ThmjjTHVYk3CaUcvrJIx8IKmDerHXZpSS8mFDVKLfIv1opf1_ylR8pie2wG2p2HOJOdLVADSNOx6mKO6wOgK5rIQrtiMoaJX0ayABBx17vh4pZ6hjWTqA8aFrYUnQphb_AHqH5PeIrAHJD2iRmXe_nSjZdn76vKbeQGHTmVdjLwuk76_n5aF9zmDwnfZ_u0M386mDfR9-=w703-h934-no"
     alt: "I made Tony take a selfie with me while we waited for our table at Dúo Tapas"
   - url: "https://lh3.googleusercontent.com/11lOUp53dC4KRvfZkCjFBqxLzd1XLoJf6i5GMZLsrueksqSIMlMDmWMyxo72DUtIdEQaJcfyUxneU8w5IpRkLEz7w6GHD60a3a4WTkZDtnOl9mp0TWlyiR4u-qVND2_aWoTw5x8Tz5owB8HH0F7l7irBHOlC8HyQDOovc0_YdFYgj6pqLeAOxo6TCNt_B9LCm0gw4ZjY6Wg1vTac4o9yQAbf393NkTZnya1Ka0zrB9vdhXrey2mcuruCNStcipc4M2dfVn1fg1LUGPtGEfZ1RcMYgpBai2Wqle_yp5sGqEWJm0GxI2pDkkIKHZ9DoDVOqeOsbVR3CwVnuVRiZ9DDXgmKYN5Cx8tm0Pq8COmDN7lMJaREP1rV9xFEHr1jqQXe5X-gFu26qSP3hBK4CKp1Pk2nDwOE1jbzUxjcKch6p9IQRu5DmSUCavk7AufBWIsDxJ41WhVgQzcc_wV_9CMpR4M74T1ZRFc8u3pip_Fzn0Pir6b18ClX84ZhHgm6uOdOA7Co2gsbGUexBueSUhw79VJhG0w_4kcHyMFohEAoGJ2OzJD9c7wCNwg6mWBUGqIRoW36GB4gfWFvClpyZnygh9gccS_tcXpcgFl4hrz_oyJLeSU_zhN-=w702-h934-no"
@@ -25,7 +23,7 @@ snapshots:
   - url: "https://lh3.googleusercontent.com/spmdZs5piVSf7IxBvOCkiyVgX4O7NSdNz-H5nczy5gCRbfULTvpCaL03nzkCCHImg4mE6ep-8uDjH5l6c93s7o3Kfo27VDGSeEPRW6QGtwA9REf0UmbsqtKmNNt0dAxcAAut0zBiw4Fd9am9yFB57wxnAUN4hHHmsDDxumZEl43PhV6axTp3QneerWvZ8XPUcfrxOluRhopHym6aA2vM8nTAuajUx9omIbLBK7qEqial7JNg4Hu4BdpwoRnI5QZXnSe2F4Egg1jlmlpLLuJ07GCq9Zh1CF571XyvKXX-H0P2Dk7HLFDRb93YPla9iYana7ASOB2wuAOtTeHaZXoD91OwTxN5XVulFFQ8Q4lksJWLxfOT0YhFfgnpxCq8YqCMMhTxXdh1k7iHrgO3hvJL2ACjSc_GPyso8kdD-aDjJ7Nz-j97Zx4ikVUBcHK5c_K086hhgwjD60gJEfJJzd69fufVVwmMSZU-Jc8oMCICMWsQvg-SiwIkyfO3GqErpeyOd-2_np7SFrIGIKc-fvUi24X0vhwZrwzDemqylLzSp6UEJuxG57VIeKZy7H3BKpP2NR2CtYLVw5cirIpnI6AeQg7X1anJVPLAc_WfjkvKVXfeoSFfLeEr=w839-h934-no"
     alt: "Some sort of complimentary limoncello after-drink"
   # - url: ""
-  #   alt: "We are home and ready for bed"
+  #   alt: "We are enjoying Seville so far"
 ---
 
 Our first night, Tony (and so I, too) woke up at 3am, so he could finalize his slides for the conference. He got up at 7am to actually leave, and that was pretty rough for him. He said that his presentation could have gone better, and people kept wanting to go over their time in the session he chaired. I basically just tried to keep sleeping until he returned, with Jon and Megan in tow.
